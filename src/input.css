@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0e1d25;
+  --border: #1e474f;
+  --void: #1e474f;
+  --text-soft: #1e474f;
+  --text-hard: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0e1d25;
+    --border: #1e474f;
+    --void: #1e474f;
+    --text-soft: #1e474f;
+    --text-hard: #fff;
+  }
+}
