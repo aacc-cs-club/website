@@ -5,7 +5,7 @@
 :root {
   --background: #0e1d25;
   --border: #1e474f;
-  --void: #1e474f;
+  --void: #000;
   --text-soft: #1e474f;
   --text-hard: #fff;
 }
@@ -14,7 +14,7 @@
   :root {
     --background: #0e1d25;
     --border: #1e474f;
-    --void: #1e474f;
+    --void: #000;
     --text-soft: #1e474f;
     --text-hard: #fff;
   }
