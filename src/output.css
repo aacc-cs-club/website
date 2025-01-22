@@ -554,10 +554,6 @@ video {
   display: none;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .sticky {
   position: sticky;
 }
@@ -570,10 +566,6 @@ video {
   top: 0px;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .mx-\[auto\] {
   margin-left: auto;
   margin-right: auto;
@@ -581,10 +573,6 @@ video {
 
 .flex {
   display: flex;
-}
-
-.h-\[1000px\] {
-  height: 1000px;
 }
 
 .h-\[128px\] {
@@ -611,11 +599,11 @@ video {
   border-right-width: 1px;
 }
 
-.border-t-\[1px\] {
+.border-t {
   border-top-width: 1px;
 }
 
-.border-t {
+.border-t-\[1px\] {
   border-top-width: 1px;
 }
 
