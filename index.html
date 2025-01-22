@@ -11,12 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="output.css" rel="stylesheet" />
   </head>
-  <body class="bg-void">
+  <body class="bg-void sm:p-0 md:p-6 transition-all">
     <div
-      class="select-none md:w-[700px] sm:w-full mx-[auto] bg-background border-l-[1px] border-r-[1px] border-b-[1px] border-border"
+      class="select-none md:w-[700px] sm:w-full mx-[auto] bg-background border-[1px] border-border md:rounded-md sm:rounded-none transition-all overflow-clip"
     >
       <div
-        class="flex select-none w-full h-[128px] bg-background border-t-[1px] border-border"
+        class="flex select-none w-full h-[128px] bg-background"
       >
         <img
           src="branding/logo_blue_dark.png"
@@ -24,10 +24,10 @@
           class="flex select-none h-full left-0 border-r-[1px] border-border"
         />
         <div
-          class="flex select-none w-full h-ful pt-6 pb-6 pl-6 pr-6 text-text-hard text-[28px] leading-9 text-center"
+          class="flex select-none w-full h-full py-6 px-6 text-text-hard md:text-[24px] leading-9 sm:text-[3vw] border-b-8 border-border"
         >
-          <p class="select-none">
-            <i class="text-highlight">Hello World!</i> Welcome to the
+          <p class="select-none text-nowrap">
+            <i class="text-highlight">Hello World!</i> Welcome to the <br>
             <b class="font-black text-highlight">Computer Science Club</b> at
             <i class="text-highlight">AACC</i>!
           </p>
@@ -35,13 +35,25 @@
       </div>
 
       <div
-        class="flex overflow-scroll select-none sticky top-0 w-full h-[36px] bg-background border-t-[1px] border-b-[1px] border-border"
+        class="flex overflow-scroll sticky select-none top-0 w-full h-[36px] bg-background border-l-8 border-y-[1px] border-border"
       >
         <a
           href="index.html"
-          class="flex select-none transition-colors h-full py-1 px-3 bg-background hover:bg-white text-text-hard hover:text-background text-[16px] border-r-[1px] border-border"
+          class="flex select-none transition-colors h-full py-1 px-4 bg-background hover:bg-white text-white hover:text-background text-[16px] border-r-[1px] border-border"
         >
           Home
+        </a>
+        <a
+          href="https://nest.aacc.edu/organization/computerscience"
+          class="flex select-none transition-colors h-full py-1 px-4 bg-background hover:bg-white text-white hover:text-background text-[16px] border-r-[1px] border-border"
+        >
+          Nest
+        </a>
+        <a
+          href="https://github.com/aacc-cs-club"
+          class="flex select-none transition-colors h-full py-1 px-4 bg-background hover:bg-white text-white hover:text-background text-[16px] border-r-[1px] border-border"
+        >
+          Github
         </a>
       </div>
 
